@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&display=swap");
+:root {
+    /*--primary-color: #13355f;*/
+    /*--secondary-color: #198b80;*/
+    /*--third-color: #e8b777;*/
+    --primary-color: #e8b777;
+    --secondary-color: #198b80;
+    --third-color: #092240;
+}
+* {
+    box-sizing: border-box;
+    /* font-family: "Cairo", sans-serif !important; */
+    /* color: var(--primary-color) !important; */
+}
+h3,
+span,
+a,
+.dataTables_wrapper .dataTable th,
+.dataTables_wrapper .dataTable td,
+.dataTables_wrapper .dataTable td {
+}
+svg path {
+    color: var(--third-color) !important;
+    fill: #fff !important;
+}
+*:not(i) {
+    font-family: "Cairo", sans-serif !important;
+}
+.kt-badge.kt-badge--unified-brand {
+    background: var(--third-color) !important;
+    color: var(--primary-color);
+}
+.kt-font-brand{
+    color: var(--primary-color) !important;
+}
+.btn-brand {
+    color: white !important;
+    background: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+.btn.btn-brand.btn-elevate {
+    box-shadow: none;
+}
+.btn.btn-brand.btn-elevate:hover {
+    box-shadow: 0px 9px 16px 0px rgba(19, 53, 95, 40%) !important;
+}
+.btn.btn-label-warning {
+    background-color: var(--third-color) !important;
+}
+.kt-aside__brand-aside-toggler:hover {
+    /* color: var(--secondary-color) !important; */
+}
+/* kt-svg-icon */
+.kt-menu__item:hover .kt-svg-icon {
+    fill: var(--secondary-color) !important;
+}
+
+.dataTables_wrapper .pagination .page-item.active > .page-link {
+    color: white !important;
+    background: var(--third-color) !important;
+}
+.kt-header .kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-user .kt-header__topbar-welcome,
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-user .kt-header__topbar-username{
+    color: #fff !important;
+}
+
+.dataTables_wrapper .pagination .page-item:not(:nth-child(2)) > .page-link {
+    background: var(--secondary-color) !important;
+}
+#kt_header{
+    background-color: var(--third-color) !important;
+}
+.kt-aside,
+.kt-aside-menu {
+    background-color: var(--third-color);
+    color: white;
+}
+.kt-menu__link{
+    color: white !important;
+}
+.kt-aside__brand {
+    background-color: inherit;
+    color: white;
+}
+
+.kt-aside-menu
+    .kt-menu__nav
+    > .kt-menu__item.kt-menu__item--active
+    > .kt-menu__link {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+
+.kt-aside-menu
+    .kt-menu__nav
+    > .kt-menu__item
+    > .kt-menu__link
+    .kt-menu__link-text {
+    color: white !important;
+    font-size: 1.15rem !important;
+}
+.kt-aside-menu
+    .kt-menu__nav
+    > .kt-menu__item:hover
+    > .kt-menu__link
+    .kt-menu__link-text {
+    color: var(--third-color) !important;
+    font-size: 1.15rem !important;
+}
+.kt-aside-menu
+    .kt-menu__nav
+    > .kt-menu__item
+    > .kt-menu__link
+    .kt-menu__link-icon {
+    color: white !important;
+}
+
+.kt-aside-menu
+    .kt-menu__nav
+    > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover
+    > .kt-menu__link {
+    background-color: var(--primary-color);
+}
+
+.dataTables_wrapper .dataTable th {
+    font-weight: 400 !important;
+    font-size: 15px;
+}
+.dataTables_wrapper .dataTable td {
+    color: rgba(19, 53, 95, 80%) !important;
+}
+h3 {
+    font-size: 18px !important;
+}
+.dataTables_wrapper .pagination .page-item.disabled > .page-link{
+    opacity: 0.8 !important;
+}
+.kt-menu__subnav span{
+    color: #fff !important;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link{
+    background-color: var(--primary-color);
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading .kt-menu__link-bullet.kt-menu__link-bullet--dot > span, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link .kt-menu__link-bullet.kt-menu__link-bullet--dot > span{
+    background-color: var(--third-color);
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link{
+    background-color: var(--primary-color);
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-bullet.kt-menu__link-bullet--dot > span, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-bullet.kt-menu__link-bullet--dot > span{
+    background-color: #fff;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__ver-arrow, .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__ver-arrow{
+    color: #fff;
+}
+.btn-brand{
+    color: var(--third-color) !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.login-container{
+    background-color: var(--third-color);
+}
+.kt-link,
+.kt-link:hover{
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+.kt-login__title,
+.kt-checkbox{
+    color: var(--primary-color) !important;
+}
+.kt-checkbox > span{
+    border: 1px solid var(--primary-color);
+}
+.kt-login__logo img{
+    max-width: 200px;
+}
+.kt-login__logo{
+    margin-bottom: 20px !important;
+}
+.kt-login__head{
+    margin-bottom: 0 !important;
+}
+
+.kt-menu__item:hover svg path,
+.kt-menu__item.kt-menu__item--active svg path{
+    fill: var(--third-color) !important;
+}
+
+.kt-menu__item:hover svg path,
+.kt-aside-menu .kt-menu__nav  .kt-menu__item.kt-menu__item--active svg path {
+    fill: var(--third-color) !important;
+}

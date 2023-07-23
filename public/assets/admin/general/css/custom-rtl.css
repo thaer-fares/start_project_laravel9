@@ -1,0 +1,451 @@
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/TheSansArab/TheSansArab-Light.woff2") format("woff2"),
+    url("../fonts/TheSansArab/TheSansArab-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/TheSansArab/TheSansArab-Plain.woff2") format("woff2"),
+    url("../fonts/TheSansArab/TheSansArab-Plain.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/TheSansArab/TheSansArab-SemiBold.woff2") format("woff2"),
+    url("../fonts/TheSansArab/TheSansArab-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/TheSansArab/TheSansArab-Bold.woff2") format("woff2"),
+    url("../fonts/TheSansArab/TheSansArab-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/TheSansArab/TheSansArab-ExtraBold.woff2") format("woff2"),
+    url("../fonts/TheSansArab/TheSansArab-ExtraBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.mb40 {
+  margin-bottom: 40px !important;
+}
+
+.mb100 {
+  margin-bottom: 100px !important;
+}
+
+.mb200 {
+  margin-bottom: 200px !important;
+}
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mt70 {
+  margin-top: 70px !important;
+}
+
+.mt80 {
+  margin-top: 80px !important;
+}
+
+.mt100 {
+  margin-top: 100px !important;
+}
+body {
+  font-family: "sans";
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extrabold {
+  font-weight: 900;
+}
+
+/* Start Global Css */
+input:focus {
+  border-color: #266bd1 !important;
+}
+
+.padding-l-0 {
+  padding-left: 0 !important;
+}
+
+.padding-r-0 {
+  padding-right: 0 !important;
+}
+
+.breadcrumb {
+  padding: 15px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.breadcrumb ul {
+  margin: 0;
+  padding: 0;
+}
+
+.portlet.light {
+  padding: 15px !important;
+}
+
+.form .form-body,
+.portlet-form .form-body {
+  padding: 0;
+}
+
+/* End Global Css */
+
+/* Start Add Employee Page */
+.page-breadcrumb .text-gray {
+  color: #999;
+}
+
+.sem-search {
+  background-color: #fff;
+  padding: 13px 4px;
+  margin-bottom: 15px;
+}
+
+.left-box {
+  background: #fff;
+  padding: 10px;
+  min-height: 250px;
+}
+
+.right-box,
+.left-box,
+.sem-search {
+  -webkit-box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.08);
+}
+
+.result-search .sem-reg-profile {
+  width: 100%;
+  height: 230px;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  display: block;
+}
+
+.right-box-table {
+  padding: 20px !important;
+  min-height: 500px;
+}
+
+.custom-left-box .left-box a {
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 25px !important;
+}
+
+.custom-left-box .left-box a:last-child {
+  margin: 0 !important;
+}
+
+.list-emp-info li {
+  padding: 6px 10px;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+
+.box-input {
+  width: 90%;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.label-input {
+  width: 90%;
+  margin: auto;
+  text-align: right !important;
+  display: block;
+  margin-bottom: 10px !important;
+}
+
+.semester-select2-custome
+  .select2-container--bootstrap
+  .select2-selection--single {
+  height: 44px !important;
+  line-height: 2.42857 !important;
+}
+
+.right-box-table {
+  min-height: 510px;
+}
+
+.right-box {
+  background: #fff;
+  padding: 10px 20px;
+}
+
+#box-result-relgion {
+  display: none;
+}
+
+.edit-grade-table .right-box-table {
+  min-height: auto !important;
+}
+
+.form-add-constant .right-box-table {
+  height: auto !important;
+  min-height: auto !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.right-box-table {
+  padding: 20px !important;
+  min-height: 500px;
+}
+
+.search-input {
+  width: 50% !important;
+}
+
+.sem-search input {
+  display: inline !important;
+}
+
+.sem-search .btn {
+  background: #266bd1;
+  border-color: #266bd1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.sem-search .btn:hover {
+  background: #fff;
+  border-color: #266bd1;
+  color: #266bd1;
+}
+
+.form-wizard .steps > li.active > a.step .number,
+.progress-bar-success,
+.btn.btn-outline.green,
+.btn.button-submit.green {
+  background: #266bd1 !important;
+  border-color: #266bd1 !important;
+  color: #fff !important;
+}
+
+.form-wizard .progress {
+  background-color: #eee;
+  height: 10px !important;
+}
+
+.form-wizard .steps > li.done > a.step .number {
+  background-color: #999999;
+}
+
+.main-top-menu li {
+  margin: 0;
+}
+
+.dropdown-menu > li.active:hover > a,
+.dropdown-menu > li.active > a,
+.dropdown-menu > li:hover > a {
+  background-color: #397ada;
+}
+
+.main-top-menu li a.active {
+  color: #fff;
+}
+
+.main-top-menu li a:hover {
+  color: #fff !important;
+}
+
+.main-top-menu > li {
+  min-height: 70px;
+  line-height: 70px;
+}
+
+.page-header.navbar .hor-menu .navbar-nav > li > a {
+  min-height: 70px;
+  line-height: 44px !important;
+}
+
+.main-top-menu li.active:hover,
+.main-top-menu li:hover {
+  background-color: #397ada !important;
+}
+
+.main-top-menu .dropdown-menu {
+  right: 0;
+  box-shadow: none !important;
+}
+
+.page-header.navbar .hor-menu .navbar-nav > li .dropdown-menu li > a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-header.navbar .hor-menu .navbar-nav > li .dropdown-menu li > a:hover {
+  padding-right: 15px;
+}
+
+.dropdown-menu .divider {
+  margin: 1px 0;
+  background: #e7eaec !important;
+}
+
+.page-header.navbar
+  .top-menu
+  .navbar-nav
+  > li.dropdown
+  .dropdown-menu
+  > li
+  > a:hover {
+  color: #fff;
+}
+
+.page-header.navbar {
+  min-height: 70px;
+}
+
+.form-wizard .steps > li > a.step {
+  text-align: right !important;
+  padding-right: 0px !important;
+}
+.form-wizard li.done a span {
+  font-weight: bold !important;
+}
+.form-wizard li.done a span.number {
+  background-color: #266bd1 !important;
+}
+.form-wizard li.done a span.desc {
+  color: #266bd1 !important;
+}
+.form-wizard li.done a span.desc .fa.fa-check {
+  color: #266bd1 !important;
+}
+.datepicker .datepicker-switch {
+  text-align: center !important;
+}
+.datepicker .next {
+  text-align: left !important;
+}
+.datepicker .year,
+.datepicker .year.active,
+.datepicker .year.active:hover {
+  padding: 4px 6px 1px !important;
+}
+#form_wizard_1 {
+  margin-bottom: 0px;
+}
+
+/* .dropdown-menu-custome {
+    right: auto !important;
+    left: 0 !important;
+} */
+
+.main-top-menu .dropdown-menu.dropdown-menu-custome {
+  left: 0;
+  right: 100%;
+  background-color: #266bd1;
+  color: #fff;
+}
+.dropdown-submenu > a:after {
+  content: "\f104";
+}
+.link-custome {
+  background-color: rgb(57, 122, 218) !important;
+}
+.dropdown-menu > li.active:hover > a,
+.dropdown-menu > li.active > a {
+  color: #fff;
+}
+
+.dropdown-menu > li.active:hover > a,
+.dropdown-menu > li.active > a,
+.dropdown-menu > li:hover > a {
+  color: #fff !important;
+  background-color: #397ada !important;
+}
+
+/* End Add Employee Page */
+
+/* Start Work 13/8/2020 */
+select.select2 {
+  opacity: 1;
+}
+/* End Work 13/8/2020 */
+.sem-reg-profile {
+  height: 250px;
+  width: 100%;
+}
+
+.mr-t-20 {
+  margin-top: 20px;
+}
+
+.btn-add {
+  background-color: red !important;
+  border: 1px solid red !important;
+}
+
+.btn-add i {
+  color: #fff !important;
+}
+
+
